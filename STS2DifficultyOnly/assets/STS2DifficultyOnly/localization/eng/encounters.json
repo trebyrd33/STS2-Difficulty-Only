@@ -1,0 +1,8 @@
+{
+  "MULTIPLAYEREXPANDED-QUEEN_AND_AEONGLASS_BOSS.title": "Queen and Aeonglass",
+  "MULTIPLAYEREXPANDED-QUEEN_AND_TEST_SUBJECT_BOSS.title": "Queen and Test Subject",
+  "MULTIPLAYEREXPANDED-TEST_SUBJECT_AND_AEONGLASS_BOSS.title": "Test Subject and Aeonglass",
+  "MULTIPLAYEREXPANDED-QUEEN_AND_AEONGLASS_BOSS.loss": "Defeated by {encounter}.",
+  "MULTIPLAYEREXPANDED-QUEEN_AND_TEST_SUBJECT_BOSS.loss": "Defeated by {encounter}.",
+  "MULTIPLAYEREXPANDED-TEST_SUBJECT_AND_AEONGLASS_BOSS.loss": "Defeated by {encounter}."
+}

@@ -1,0 +1,1 @@
+No STS2 game installation: actual DLL/Harmony gameplay tests remain blocked by missing Sentry.Godot and the rest of the game runtime. Native Godot PCK resource checks passed; they are not STS2 gameplay tests.

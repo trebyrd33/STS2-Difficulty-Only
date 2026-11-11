@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[node name="DifficultyBossSlots" type="Control"]
+layout_mode = 3
+mouse_filter = 2
+
+[node name="left" type="Marker2D" parent="."]
+position = Vector2(400, 740)
+
+[node name="right" type="Marker2D" parent="."]
+position = Vector2(1520, 740)

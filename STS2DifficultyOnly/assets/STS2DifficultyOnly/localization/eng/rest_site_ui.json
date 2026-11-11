@@ -1,0 +1,4 @@
+{
+  "OPTION_REVIVE_ALL.name": "Revive All",
+  "OPTION_REVIVE_ALL.description": "Revive all dead teammates using their normal Mend healing amounts. This consumes your rest-site action.{ExtraText}"
+}

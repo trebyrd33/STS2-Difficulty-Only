@@ -1,0 +1,1 @@
+OPTIONAL CONTENT: 85 static checks passed; 3 independent synchronized settings, 5 gated events, 2 event-only cards, 1 event relic, and event text/assets present. Runtime tests pending.

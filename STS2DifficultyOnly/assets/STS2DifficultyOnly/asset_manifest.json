@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "scenes": {
+    "double_boss": {
+      "left": [
+        400,
+        740
+      ],
+      "right": [
+        1520,
+        740
+      ]
+    },
+    "double_boss_queen": {
+      "left": [
+        400,
+        740
+      ],
+      "amalgam": [
+        1270,
+        780
+      ],
+      "queen": [
+        1580,
+        660
+      ]
+    }
+  },
+  "files": [
+    "STS2DifficultyOnly/images/card_portraits/cold_feet.tres",
+    "STS2DifficultyOnly/images/card_portraits/envy.tres",
+    "STS2DifficultyOnly/images/card_portraits/frantic_pull.tres",
+    "STS2DifficultyOnly/images/card_portraits/frustration.tres",
+    "STS2DifficultyOnly/images/card_portraits/gluttony.tres",
+    "STS2DifficultyOnly/images/card_portraits/haze.tres",
+    "STS2DifficultyOnly/images/card_portraits/hoarding.tres",
+    "STS2DifficultyOnly/images/card_portraits/immortal.tres",
+    "STS2DifficultyOnly/images/card_portraits/improvements.tres",
+    "STS2DifficultyOnly/images/card_portraits/inner_world.tres",
+    "STS2DifficultyOnly/images/card_portraits/martyrdom.tres",
+    "STS2DifficultyOnly/images/card_portraits/neow_s_clutch.tres",
+    "STS2DifficultyOnly/images/card_portraits/sloth.tres",
+    "STS2DifficultyOnly/images/card_portraits/vogelfrei.tres",
+    "STS2DifficultyOnly/images/events/an_empty_chest.tres",
+    "STS2DifficultyOnly/images/events/an_empty_chest_act_1.tres",
+    "STS2DifficultyOnly/images/events/an_empty_chest_act_2.tres",
+    "STS2DifficultyOnly/images/events/an_empty_chest_act_3.tres",
+    "STS2DifficultyOnly/images/events/fading_memories.tres",
+    "STS2DifficultyOnly/images/events/guardian_angel.tres",
+    "STS2DifficultyOnly/images/events/hammering_lesson.tres",
+    "STS2DifficultyOnly/images/events/labyrinth_of_mirrors.tres",
+    "STS2DifficultyOnly/images/intents/challenger_intent.tres",
+    "STS2DifficultyOnly/images/intents/dismissive_intent.tres",
+    "STS2DifficultyOnly/images/intents/patronizing_intent.tres",
+    "STS2DifficultyOnly/images/intents/targeted_intent.tres",
+    "STS2DifficultyOnly/images/intents/vengeful_intent.tres",
+    "STS2DifficultyOnly/images/powers/beckoned_power.tres",
+    "STS2DifficultyOnly/images/powers/burning_power.tres",
+    "STS2DifficultyOnly/images/powers/cold_feet_power.tres",
+    "STS2DifficultyOnly/images/powers/column_power.tres",
+    "STS2DifficultyOnly/images/powers/countered_power.tres",
+    "STS2DifficultyOnly/images/powers/counterpunch_power.tres",
+    "STS2DifficultyOnly/images/powers/decayed_power.tres",
+    "STS2DifficultyOnly/images/powers/defect.tres",
+    "STS2DifficultyOnly/images/powers/enrage_contribution_power.tres",
+    "STS2DifficultyOnly/images/powers/frozen_in_place_power.tres",
+    "STS2DifficultyOnly/images/powers/frustration_power.tres",
+    "STS2DifficultyOnly/images/powers/gas_bomb_target_power.tres",
+    "STS2DifficultyOnly/images/powers/gluttony_hex_power.tres",
+    "STS2DifficultyOnly/images/powers/haze_power.tres",
+    "STS2DifficultyOnly/images/powers/hoarding_power.tres",
+    "STS2DifficultyOnly/images/powers/immortal_power.tres",
+    "STS2DifficultyOnly/images/powers/improvements_power.tres",
+    "STS2DifficultyOnly/images/powers/infected_power.tres",
+    "STS2DifficultyOnly/images/powers/inner_world_power.tres",
+    "STS2DifficultyOnly/images/powers/ironclad.tres",
+    "STS2DifficultyOnly/images/powers/left_column_enemy_power.tres",
+    "STS2DifficultyOnly/images/powers/martyrdom_power.tres",
+    "STS2DifficultyOnly/images/powers/necrobinder.tres",
+    "STS2DifficultyOnly/images/powers/paranoia_power.tres",
+    "STS2DifficultyOnly/images/powers/plot_power.tres",
+    "STS2DifficultyOnly/images/powers/power.tres",
+    "STS2DifficultyOnly/images/powers/regent.tres",
+    "STS2DifficultyOnly/images/powers/right_column_enemy_power.tres",
+    "STS2DifficultyOnly/images/powers/sandpit_mp_power.tres",
+    "STS2DifficultyOnly/images/powers/silent.tres",
+    "STS2DifficultyOnly/images/powers/tag_team_mp_power.tres",
+    "STS2DifficultyOnly/images/powers/taking_turns_power.tres",
+    "STS2DifficultyOnly/images/powers/team_withering_presence_power.tres",
+    "STS2DifficultyOnly/images/powers/the_ball_power.tres",
+    "STS2DifficultyOnly/images/powers/toxified_power.tres",
+    "STS2DifficultyOnly/images/powers/tracking_mp_power.tres",
+    "STS2DifficultyOnly/images/powers/vital_spark_mp_power.tres",
+    "STS2DifficultyOnly/images/powers/was_dunked_on_power.tres",
+    "STS2DifficultyOnly/images/powers/withered_power.tres",
+    "STS2DifficultyOnly/images/relics/a_lingering_something.tres",
+    "STS2DifficultyOnly/images/relics/a_lingering_something_outline.tres",
+    "STS2DifficultyOnly/images/ui/rest_site/option_revive_all.tres",
+    "STS2DifficultyOnly/localization/eng/afflictions.json",
+    "STS2DifficultyOnly/localization/eng/cards.json",
+    "STS2DifficultyOnly/localization/eng/encounters.json",
+    "STS2DifficultyOnly/localization/eng/events.json",
+    "STS2DifficultyOnly/localization/eng/intents.json",
+    "STS2DifficultyOnly/localization/eng/powers.json",
+    "STS2DifficultyOnly/localization/eng/relics.json",
+    "STS2DifficultyOnly/localization/eng/rest_site_ui.json",
+    "STS2DifficultyOnly/localization/eng/settings_ui.json",
+    "STS2DifficultyOnly/scenes/encounters/double_boss.tscn",
+    "STS2DifficultyOnly/scenes/encounters/double_boss_queen.tscn"
+  ]
+}

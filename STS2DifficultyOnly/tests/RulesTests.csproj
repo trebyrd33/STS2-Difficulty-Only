@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net9.0</TargetFramework><Nullable>enable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+ <ItemGroup><Compile Include="RulesTests.cs"/><Compile Include="../src/MultiplayerExpanded.Features.Difficulty/DifficultyRules.cs" Link="DifficultyRules.cs"/><Compile Include="../src/MultiplayerExpanded.Features.Settings/SettingsPayload.cs" Link="SettingsPayload.cs"/><Compile Include="../src/MultiplayerExpanded.Features.Settings/MultiplayerDeathMode.cs" Link="MultiplayerDeathMode.cs"/><Compile Include="../src/MultiplayerExpanded.Features.Settings/DeathModeRules.cs" Link="DeathModeRules.cs"/></ItemGroup>
+</Project>

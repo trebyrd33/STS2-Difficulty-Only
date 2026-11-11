@@ -1,0 +1,1 @@
+PASS: 26784 assertions; all 128 difficulty/content masks at 1–4 players across all 4 death modes; A9/A10/A11; damage/scaling; atomic payload schema; Vanilla/solo isolation.

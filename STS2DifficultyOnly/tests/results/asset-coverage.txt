@@ -1,0 +1,1 @@
+ASSET COVERAGE: 912 checks passed; all retained models have resources; 7 approved encounter cards, 5 multiplayer curses excluding Loneliness, and 2 event rewards; no old pack paths.

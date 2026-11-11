@@ -1,0 +1,1 @@
+REWORK COVERAGE: 351 checks passed; original 52 definitions retained (42 shared, 9 beta-only, 1 stable-only), text complete, lifecycle hooks included, potion ownership/gating checked. Static verification only.

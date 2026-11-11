@@ -1,0 +1,17 @@
+{
+  "id": "STS2DifficultyOnly",
+  "name": "STS2 Difficulty Only",
+  "author": "Difficulty Only adaptation; original difficulty mechanics by Elec",
+  "description": "Four independent difficulty options plus separate switches for MPX vanilla-card reworks, potion changes and five multiplayer events. Includes event-only rewards, approved curses and four death modes. Compiled test candidate; game verification pending.",
+  "version": "v0.5.0",
+  "min_game_version": "0.107.1",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "BaseLib",
+      "min_version": "3.4.7"
+    }
+  ],
+  "affects_gameplay": true
+}

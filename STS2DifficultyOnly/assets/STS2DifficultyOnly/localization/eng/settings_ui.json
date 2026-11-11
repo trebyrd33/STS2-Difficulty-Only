@@ -1,0 +1,22 @@
+{
+  "STS2DIFFICULTYONLY-SURROUNDED_BY_BOSSES.title": "Act 3 Double Boss (A10+)",
+  "STS2DIFFICULTYONLY-SURROUNDED_BY_BOSSES.description": "Combine the two Act 3 bosses into one simultaneous encounter at Ascension 10 or higher. Works independently of Enemy Reworks.",
+  "STS2DIFFICULTYONLY-ENEMY_REWORKS.title": "Enemy Reworks",
+  "STS2DIFFICULTYONLY-ENEMY_REWORKS.description": "Use MPX enemy moves, targeted intents, powers and rotation mechanics, including the approved encounter cards. Original reworks apply to multiplayer parties. Independent of card, potion and event options; locks at run start.",
+  "STS2DIFFICULTYONLY-ENEMY_DAMAGE_COMPENSATION.title": "Enemy Damage Compensation",
+  "STS2DIFFICULTYONLY-ENEMY_DAMAGE_COMPENSATION.description": "Enemy base attack damage: no bonus for 1\u20132 players; +10% for 3 players; +25% for 4 players. Round halves away from zero before Strength and other modifiers.",
+  "STS2DIFFICULTYONLY-INCREASED_ENEMY_SCALING.title": "Increased Enemy Scaling",
+  "STS2DIFFICULTYONLY-INCREASED_ENEMY_SCALING.description": "For 3 players: 1 + 2 \u00d7 (ActScaling \u2212 1). For 4 players: 1 + 3 \u00d7 (ActScaling \u2212 1). Preserve original spawn, hatchling, Test Subject, and Flutter exceptions. Settings lock when the run launches. Host settings govern co-op.",
+  "STS2DIFFICULTYONLY-DEATH_MODE.title": "Multiplayer Death Mode",
+  "STS2DIFFICULTYONLY-DEATH_MODE.description": "Host-controlled co-op death behavior. Vanilla leaves normal STS2 death handling in place. Vanilla+ adds Neow's Clutch after revival. Everyone Dies kills the party when one player dies. Stay Dead Until Mended keeps dead players down until rest-site revival, preserving the original boss-room exception. Does not affect solo play.",
+  "STS2DIFFICULTYONLY-DEATH_MODE.Vanilla": "Vanilla (normal STS2 death)",
+  "STS2DIFFICULTYONLY-DEATH_MODE.VanillaPlus": "Vanilla+ (Neow's Clutch after revival)",
+  "STS2DIFFICULTYONLY-DEATH_MODE.EveryoneDies": "Everyone Dies",
+  "STS2DIFFICULTYONLY-DEATH_MODE.StayDeadUntilMended": "Stay Dead Until Mended",
+  "STS2DIFFICULTYONLY-VANILLA_CARD_REWORKS.title": "MPX Vanilla Card Reworks",
+  "STS2DIFFICULTYONLY-VANILLA_CARD_REWORKS.description": "Enable all MPX vanilla-card multiplayer adaptations, including Decay and multiplayer status changes. Off restores vanilla behavior and card-library text. Co-op only; independent of Enemy Reworks. Host-controlled; locks at run start.",
+  "STS2DIFFICULTYONLY-MULTIPLAYER_POTION_CHANGES.title": "MPX Potion Changes",
+  "STS2DIFFICULTYONLY-MULTIPLAYER_POTION_CHANGES.description": "Enable ally targeting and recipient card choices for Attack, Skill, Power and Colorless Potions, plus potion-bar reconciliation. Off restores vanilla behavior. Independent of card reworks. Host-controlled; locks at run start.",
+  "STS2DIFFICULTYONLY-MULTIPLAYER_EVENTS.title": "MPX Events",
+  "STS2DIFFICULTYONLY-MULTIPLAYER_EVENTS.description": "Allow the five original MPX multiplayer events, with their event-only Immortal and Improvements cards and A Lingering Something relic. Off excludes these events from new event selection; existing saved rewards remain. Co-op only; host-controlled; locks at run start."
+}

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net9.0</TargetFramework><AssemblyName>STS2DifficultyOnly</AssemblyName><Version>0.3.0</Version><GenerateAssemblyInfo>false</GenerateAssemblyInfo><LangVersion>13</LangVersion><Nullable>enable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems><NoWarn>CS8600;CS8601;CS8602;CS8603;CS8604;CS8618;CS8625;CS8620;CS8622</NoWarn></PropertyGroup>
+<ItemGroup><Compile Include="src/**/*.cs"/><Reference Include="sts2"><HintPath>references/sts2.dll</HintPath><Private>false</Private></Reference><Reference Include="GodotSharp"><HintPath>references/GodotSharp.dll</HintPath><Private>false</Private></Reference><Reference Include="0Harmony"><HintPath>references/0Harmony.dll</HintPath><Private>false</Private></Reference><Reference Include="BaseLib"><HintPath>references/BaseLib.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+</Project>
