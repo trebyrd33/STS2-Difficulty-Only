@@ -1,4 +1,4 @@
-# Everything included in STS2 Difficulty Only — 0.5.0-test1
+# Everything included in STS2 Difficulty Only — 0.5.0-test2
 
 This is the complete content/feature inventory for the compiled local test package. It includes the scope expansions explicitly requested by the user: multiplayer curses except Loneliness, the Decay rework, and the four death modes. Implementation is source-audited; actual STS2 playability and branch/co-op compatibility remain unverified.
 
@@ -111,7 +111,7 @@ Loneliness; BFFs Bracelet and all other added relics except A Lingering Somethin
 
 ## Verification status
 
-The DLL compiles; 26,784 pure numerical/schema/death-mode activation assertions passed; 250 native Godot resource checks passed; 912 source/resource coverage checks passed. Metadata found 94 directly declared patch targets in the supplied beta-shaped game assembly; 12 dynamic target classes remain runtime-unverified. Compiled inventory: 14 custom cards, 5 events, 1 event relic and no added characters or potion models.
+The DLL compiles; 26,784 pure numerical/schema/death-mode activation assertions passed; 250 native Godot resource checks passed; 910 source/resource coverage checks passed. Metadata found 95 directly declared patch targets in the supplied beta-shaped game assembly; 10 dynamic target classes remain runtime-unverified. Compiled inventory: 14 custom cards, 5 events, 1 event relic and no added characters or potion models.
 
 STs2 loading, combat, deaths/revival, network timing, save/load and both stable/beta branches have NOT been tested in a running game here. This is a locally installable test candidate, not a verified playable/public release. See TEST_RESULTS.md for the exact missing-runtime blocker and required test checklist.
 
@@ -128,3 +128,7 @@ The MPX Events switch defaults to on and controls eligibility of An Empty Chest,
 Event-only rewards are included: Immortal (one-use deck-removing ally death protection), Improvements (permanent random deck upgrades after combat), and A Lingering Something (+1 maximum Energy and +1 card draw). These are the only added player reward cards/relic in this expansion. They remain registered for save compatibility when the event switch is off; the switch excludes new event appearances, and does not remove already-owned rewards. See EVENTS_AND_TOGGLES.md for the complete event list and pending checks.
 
 The MPX Potion Changes switch defaults to on. Turning it off restores vanilla card-potion use/targeting and disables MPX potion-bar reconciliation. It does not depend on the card switch. All seven booleans plus DeathMode synchronize and lock for a run.
+
+## test2 networking-only change
+
+Settings attach after vanilla client handshake/host peer readiness, with stale-session cleanup. Gameplay and PCK are unchanged. Native Steam hosting has not been retested; see LOBBY_INVESTIGATION.md.

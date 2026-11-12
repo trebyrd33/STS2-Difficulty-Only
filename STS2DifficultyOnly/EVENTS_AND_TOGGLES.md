@@ -1,4 +1,4 @@
-# Events and optional content — 0.5.0-test1
+# Events and optional content — 0.5.0-test2
 
 Three independent switches are added alongside the original four difficulty settings and default-Vanilla death-mode selector. All three default to On, synchronize from the host with the same validated snapshot, and lock when a run launches. Change them before a new run. Every peer must use this build; earlier settings payloads are rejected rather than partially applied.
 

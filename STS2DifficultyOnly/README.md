@@ -1,4 +1,4 @@
-# STS2 Difficulty Only — 0.5.0-test1
+# STS2 Difficulty Only — 0.5.0-test2
 
 Compiled local test build derived from Multiplayer Expanded v0.3.16 by Elec. Includes four independent difficulty toggles, the requested multiplayer curses except Loneliness, the existing Decay rework, and four selectable death modes. Its own small PCK is included; MultiplayerExpanded.pck is not required.
 
@@ -53,4 +53,8 @@ This candidate includes the original 52 vanilla-card rework definitions and four
 
 ## Events and switching content
 
-The MPX Events option restores the five original events and their two event-only cards plus one event relic. See EVENTS_AND_TOGGLES.md. Configure all switches before starting a fresh run; they lock during the run. Off restores vanilla card/potion behavior or excludes MPX event appearances, respectively. Card reworks includes Decay and status reworks. The switches are independent, synchronized with the host, and all peers must update to 0.5.0-test1 because the network settings schema has changed. Already-earned event cards/relics remain functional when events are disabled for a subsequent run/resume.
+The MPX Events option restores the five original events and their two event-only cards plus one event relic. See EVENTS_AND_TOGGLES.md. Configure all switches before starting a fresh run; they lock during the run. Off restores vanilla card/potion behavior or excludes MPX event appearances, respectively. Card reworks includes Decay and status reworks. The switches are independent, synchronized with the host, and all peers must update to 0.5.0-test2 because the network settings schema has changed. Already-earned event cards/relics remain functional when events are disabled for a subsequent run/resume.
+
+## test2 hosting investigation
+
+This candidate defers settings synchronization until vanilla handshake/peer readiness, removes constructor hooks, and fixes stale-session cleanup. See LOBBY_INVESTIGATION.md for code evidence, changed files and required retests. The native Steam k_EResultNoConnection root cause remains unconfirmed; no successful in-game hosting retest is claimed. Install test2 on every peer. The manifest keeps its numeric v0.5.0 loader version; DLL informational version is 0.5.0-test2 and assembly/file version is 0.5.0.2.

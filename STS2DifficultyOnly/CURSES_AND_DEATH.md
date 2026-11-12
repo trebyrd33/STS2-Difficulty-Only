@@ -1,4 +1,4 @@
-# Multiplayer curses and death modes — 0.5.0-test1
+# Multiplayer curses and death modes — 0.5.0-test2
 
 Restored at the user's explicit request. The original four difficulty toggles remain independent; death behavior is one additional selector. Default: Vanilla. No Loneliness card or supporting relic has been restored.
 

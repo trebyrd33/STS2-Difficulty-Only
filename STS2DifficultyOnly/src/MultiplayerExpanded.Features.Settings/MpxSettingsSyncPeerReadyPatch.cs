@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Multiplayer;
@@ -14,6 +15,7 @@ internal static class MpxSettingsSyncPeerReadyPatch
 	{
 		try
 		{
+			if (!__instance.IsConnected || !__instance.ConnectedPeers.Any(p => p.peerId == peerId && p.readyForBroadcasting)) return;
 			MpxSettingsSyncWiring.SendSnapshotTo((INetHostGameService)(object)__instance, peerId);
 		}
 		catch (Exception ex)

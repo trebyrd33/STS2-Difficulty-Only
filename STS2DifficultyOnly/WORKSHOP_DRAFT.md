@@ -1,4 +1,4 @@
-# Workshop preparation draft — 0.5.0-test1
+# Workshop preparation draft — 0.5.0-test2
 
 Title: STS2 Difficulty Only
 

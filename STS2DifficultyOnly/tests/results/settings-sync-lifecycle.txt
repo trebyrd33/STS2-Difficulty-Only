@@ -1,0 +1,1 @@
+PASS: 42 settings-sync lifecycle assertions; production sync code with fake external APIs, no game or Steam runtime.

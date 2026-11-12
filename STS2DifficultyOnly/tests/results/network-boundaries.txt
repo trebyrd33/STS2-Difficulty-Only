@@ -1,0 +1,1 @@
+NETWORK BOUNDARIES: 373 static checks passed; no settings constructor hooks or Steam transport patches; client handshake and host peer-ready guards present. Does not execute Steam.

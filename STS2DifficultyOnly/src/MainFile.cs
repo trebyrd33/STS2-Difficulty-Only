@@ -30,7 +30,7 @@ public static class MainFile {
   var config = new MultiplayerExpandedConfig();
   ModConfigRegistry.Register(ModId, config);
   config.ConfigChanged += (_, _) => { MpxSettingsSync.EnforceCurrentSettings(); MultiplayerExpanded.Features.Reworks.ReworkPatches.RefreshSettings(); };
-  Logger.Info($"Difficulty Only 0.5.0-test1; branch: {(Beta.IsOn ? "beta" : "stable")}; game: {BetaMainCompatibility.Version}",1);
+  Logger.Info($"Difficulty Only 0.5.0-test2; branch: {(Beta.IsOn ? "beta" : "stable")}; game: {BetaMainCompatibility.Version}",1);
   GameApi.Init();
   var harmony = new Harmony(ModId);
   try {

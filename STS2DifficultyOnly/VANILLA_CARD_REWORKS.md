@@ -1,4 +1,4 @@
-# Vanilla card multiplayer reworks — 0.5.0-test1
+# Vanilla card multiplayer reworks — 0.5.0-test2
 
 All 52 original CardRework definitions are retained: 42 shared, 9 beta-only, 1 stable-only. This yields 43 eligible reworks on stable and 51 on beta. Branch selection follows the original source. These are changes to existing vanilla models; they do not add collectible card models. Effects activate in co-op while MPX Vanilla Card Reworks is enabled, independently of the four difficulty toggles. Solo keeps vanilla cards. The card library multiplayer checkbox previews reworks. Actual gameplay and branch compatibility remain unverified.
 
